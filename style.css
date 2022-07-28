@@ -9,7 +9,16 @@
     top: 30%;
     bottom: auto;
 }
-.container {
-    top: 30%;
-    bottom: auto;
+
+.modal1{
+    width: 1320px;
+    height: 300px;
+    background-color:white;
+    border: 1px solid black;
+}
+.modal2{
+    width: 1320px;
+    height: 300px;
+    background-color:white;
+    border: 1px solid black;
 }
