@@ -8,6 +8,8 @@
 .carousel-caption {
     top: 30%;
     bottom: auto;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Poppins;
 }
 
 .modal1{
@@ -22,3 +24,101 @@
     background-color:white;
     border: 1px solid black;
 }
+
+/* ----------------- */
+
+.body{
+    background: #FFFFFF;
+}
+#footer{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+
+    background-color: black;
+    width: 1600px;
+    height: 444px;
+    font-family:"Open Sans";
+    color: white;
+    /* align-items: center; */
+    margin-top: 10px;
+}
+ .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ /* .footer-content h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+ } */
+ .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+ }
+ .socials li {
+    margin: 0 10px;
+ }
+ .socials a {
+    text-decoration: none;
+    color: white;
+
+ }
+
+
+ socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+ }
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.container{
+    align-items: center;
+    margin-left: 300px;
+  
+}
+
+
+.button-a button a {
+    text-decoration: none;
+    font-size: 15px;
+    /* background-color: black; */
+    color: #FFFFFF;
+}
+.socials{
+    margin-top: 100px;
+}
+.h1head{
+    margin-top: 50px;
+}
+.button-a {
+    margin-top: 50px;
+}
+
+.b1{
+    background-color: black;
+}
+
+@media screen and (max-width: 576px) { .fullcontainer{
+grid-template-columns: repeat(1, 1fr);
+}}
